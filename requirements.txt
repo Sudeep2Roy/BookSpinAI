@@ -1,0 +1,7 @@
+# Requirements.txt
+playwright
+beautifulsoup4
+google-generativeai
+chromadb
+fastapi
+uvicorn
