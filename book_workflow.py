@@ -10,7 +10,7 @@ from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
 import google.generativeai as genai
 
 # 1. SETUP GEMINI API KEY
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBmWCZpZzimIktDthnWOUZB3OqT55c8Uzk")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "your_api_key")
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-pro")
 
